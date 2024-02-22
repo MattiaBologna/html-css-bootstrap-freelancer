@@ -58,6 +58,16 @@ ul, ol, menu {
     color: black;
 }
 
+/* Info section */
+.info__section {
+    background-color: hsl(300, 15%, 30%);
+}
+
+/* Copyright section */
+.copyright__section {
+    background-color: rgb(62, 46, 62);
+}
+
 
 
 /********************
