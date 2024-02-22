@@ -1,9 +1,30 @@
 /********************
+    RESET
+********************/
+
+ul, ol, menu {
+    list-style: none;
+}
+
+
+
+/********************
     LAYOUT
 ********************/
 
+/* Header */
+.header_tools {
+    gap: 15px;
+}
 
+/* Hero Section */
+.hero__section {
+    background-color: rgb(114, 155, 114);
+}
 
+.hero_avatar {
+    width: 110px;
+}
 
 
 
