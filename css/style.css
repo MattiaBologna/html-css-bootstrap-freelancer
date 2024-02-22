@@ -39,11 +39,18 @@ ul, ol, menu {
     background-color: white;
 }
 
-
 .portfolio__section img{
     max-width: 100%;
 }
 
+.portfolio_title {
+    color: black;
+}
+
+/* About section */
+.about__section {
+    background-color: rgb(114, 155, 114);
+}
 
 
 
