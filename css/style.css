@@ -17,6 +17,14 @@ ul, ol, menu {
     gap: 15px;
 }
 
+
+
+
+
+/********************
+    STYLE
+********************/
+
 /* Hero Section */
 .hero__section {
     background-color: rgb(114, 155, 114);
@@ -24,6 +32,16 @@ ul, ol, menu {
 
 .hero_avatar {
     width: 110px;
+}
+
+/* Portfolio Section */
+.portfolio__section {
+    background-color: white;
+}
+
+
+.portfolio__section img{
+    max-width: 100%;
 }
 
 
@@ -42,6 +60,5 @@ body.debug  {
     background-color: rgb(62, 46, 62);
 }
 
-.debug .page__header .col {
-    background-color: red;
-}
+
+
