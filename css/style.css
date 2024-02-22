@@ -1,0 +1,26 @@
+/********************
+    LAYOUT
+********************/
+
+
+
+
+
+
+
+/********************
+    DEBUG
+********************/
+
+body.debug  {
+    color: white;
+    background-color: #dedede;
+}
+
+.debug .page__header .container-sm {
+    background-color: rgb(62, 46, 62);
+}
+
+.debug .page__header .col {
+    background-color: red;
+}
