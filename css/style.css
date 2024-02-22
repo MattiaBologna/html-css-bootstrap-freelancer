@@ -52,6 +52,12 @@ ul, ol, menu {
     background-color: rgb(114, 155, 114);
 }
 
+/* Contact section */
+.contact__section {
+    background-color: white;
+    color: black;
+}
+
 
 
 /********************
