@@ -118,12 +118,42 @@ body {
     border: none;
     background-color: #169c81;
     margin: 1px;
+    animation: smoothButtonHover 0.3s;
 }
 
 /* Contact section */
 .contact__section {
     background-color: white;
     color: black;
+}
+
+.contact_title {
+    color: var(--dark-title);
+}
+
+.contact__section label {
+    color: var(--dark-blue);
+    font-weight: 500;
+}
+
+.contact__section input, 
+.contact__section textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00000033;
+}
+
+.contact_submit {
+    align-self: flex-start;
+    border: none;
+    background-color: var(--green);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.contact_submit:hover {
+    background-color: #169c81;
 }
 
 /* Info section */

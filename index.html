@@ -124,23 +124,22 @@
 
         <!-- CONTACT SECTION -->
 
-        <section class="contact__section">
+        <section class="contact__section py-5">
             <div class="container-sm">
                 <div class="row text-center">
-                    <h1 class="conctact_title">CONTACT ME</h1>
+                    <h1 class="conctact_title section_title">CONTACT ME</h1>
                     <div class="separate"></div>
                     <form class="d-flex flex-column text-start" action="">
-                        <!-- TODO fix the form tags attributes -->
-                        <label for="">Name</label>
-                        <input type="text" >
-                        <label for="">Email Address</label>
-                        <input type="email" >
-                        <label for="">Phone Number</label>
-                        <input type="number" >
-                        <label for="">Message</label>
-                        <input type="text" >
+                        <label for="name">Name</label>
+                        <input id="name" type="text" >
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email" >
+                        <label for="phoneNumber">Phone Number</label>
+                        <input id="phoneNumber" type="number" >
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <button type="submit" class="contact_submit my-2">Send</button>
                     </form>
-                    <button>Send</button>
                 </div>
             </div>
         </section>
