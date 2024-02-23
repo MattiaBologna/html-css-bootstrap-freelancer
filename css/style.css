@@ -161,6 +161,32 @@ body {
     background-color: var(--blue);
 }
 
+.info_title {
+    font-size: 18px;
+}
+
+.info_text {
+    font-size: 19px;
+}
+
+.info_icons {
+    gap: 10px;
+}
+
+.info_icon {
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    aspect-ratio: 1/1;
+    display: block;
+    width: 50px;
+    padding-top: 15px;
+}
+
+.info_text a {
+    color: #1ABC9C;
+}
+
 /* Copyright section */
 .copyright__section {
     background-color: var(--dark-blue);
@@ -179,6 +205,9 @@ body {
     }
     .about_text {
         column-count: 2;
+    }
+    .info_title {
+        font-size: 24px;
     }
 }
 
