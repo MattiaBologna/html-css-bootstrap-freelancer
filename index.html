@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/30a5d231e3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="debug">
+<body>
     
     <!-- HEADER -->
 
-    <header class="page__header">
+    <header class="page__header text-white">
         <div class="container-sm">
             <div class="row">
-                <div class="col d-flex justify-content-between">
+                <div class="col d-flex justify-content-between align-items-center">
                     <div class="header_logo">
-                        LOGO
+                        <a href="#">START BOOTSTRAP</a>
                     </div>
-                    <ul class="header_tools d-none d-md-flex">
-                        <li class="header_tool">PORTFOLIO</li>
-                        <li class="header_tool">ABOUT</li>
-                        <li class="header_tool">CONTACT</li>
+                    <ul class="header_tools d-none d-md-flex m-0">
+                        <li class="header_tool">
+                            <a href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="header_tool">
+                            <a href="#">ABOUT</a>
+                        </li>
+                        <li class="header_tool">
+                            <a href="#">CONTACT</a>
+                        </li>
                     </ul> 
                     <div class="header_hamburger_menu d-md-none">
                         <i class="fa-solid fa-bars"></i>
@@ -38,11 +47,15 @@
 
         <!-- HERO SECTION -->
 
-        <section class="hero__section text-center">
-            <img class="hero_avatar" src="./img/avatar.svg" alt="">
+        <section class="hero__section text-center text-white">
+            <img class="hero_avatar py-3" src="./img/avatar.svg" alt="">
             <h1 class="hero_title">START BOOTSTRAP</h1>
-            <div class="separate"></div>
-            <div class="h2">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+            <div class="separate d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-minus separate_line px-2"></i>
+                <i class="fa-solid fa-star separate_star px-2"></i>
+                <i class="fa-solid fa-minus separate_line px-2"></i>
+            </div>
+            <h2 class="hero_subtitle py-3 pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
         </section>
 
         <!-- PORTFOLIO SECTION  -->

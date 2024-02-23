@@ -1,3 +1,9 @@
+:root {
+    --dark-blue: #2C3E50;
+    --green: #1ABC9C;
+    --blue: #3A546D;
+}
+
 /********************
     RESET
 ********************/
@@ -6,7 +12,23 @@ ul, ol, menu {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+} 
 
+a:hover {
+    color: currentColor;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
 
 /********************
     LAYOUT
@@ -19,20 +41,46 @@ ul, ol, menu {
 
 
 
-
-
 /********************
     STYLE
 ********************/
 
+/* Header */
+.page__header {
+    background-color: var(--dark-blue);
+}
+
+.page__header .row {
+    height: 90px;
+}
+
+.header_logo {
+    font-size: 27px;
+    font-weight: 700;
+}
+
 /* Hero Section */
 .hero__section {
-    background-color: rgb(114, 155, 114);
+    background-color: var(--green);
 }
 
 .hero_avatar {
-    width: 110px;
+    width: 150px;
 }
+
+.hero_title {
+    font-size: 34px;
+}
+
+.hero_subtitle {
+    font-size: 18px;
+}
+
+/* Separate */
+.separate_star {
+    font-size: 30px;
+}
+
 
 /* Portfolio Section */
 .portfolio__section {
@@ -49,7 +97,7 @@ ul, ol, menu {
 
 /* About section */
 .about__section {
-    background-color: rgb(114, 155, 114);
+    background-color: var(--green);
 }
 
 /* Contact section */
@@ -60,28 +108,35 @@ ul, ol, menu {
 
 /* Info section */
 .info__section {
-    background-color: hsl(300, 15%, 30%);
+    background-color: var(--blue);
 }
 
 /* Copyright section */
 .copyright__section {
-    background-color: rgb(62, 46, 62);
+    background-color: var(--dark-blue);
 }
+
+
+
+/********************
+        MEDIA QUERY
+********************/
+
+@media (min-width: 768px) {
+    .hero_title {
+        font-size: 59px;
+    }
+    .hero_subtitle {
+        font-size: 24px;
+    }
+}
+
 
 
 
 /********************
     DEBUG
 ********************/
-
-body.debug  {
-    color: white;
-    background-color: #dedede;
-}
-
-.debug .page__header .container-sm {
-    background-color: rgb(62, 46, 62);
-}
 
 
 
