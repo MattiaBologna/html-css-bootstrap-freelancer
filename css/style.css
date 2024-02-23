@@ -83,7 +83,9 @@ body {
 }
 
 .separate_line {
-    
+    display: inline-block;
+    transform: scale(5,2);
+    margin: 0px 1em;
 }
 
 
@@ -214,9 +216,18 @@ body {
     .info_title {
         font-size: 24px;
     }
+    .separate_line {
+        transform: scale(7,2);
+        margin: 0px 2em;
+    }
 }
 
-
+@media (min-width: 992px) {
+    .separate_line {
+        transform: scale(9,2);
+        margin: 0px 3em;
+    }
+}
 
 
 /********************
